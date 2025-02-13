@@ -4,11 +4,26 @@
     <title>Devdatta Luxury Collection</title>
     <style>
       body {
-        width: 75%;
+        width: 85%;
         margin: 0px auto;
         font-family: "Times New Roman", Times, serif;
         font-size: 28px;
         background-color: #edede9;
+      }
+
+      ul {
+        display: inline-block;
+        list-style: none;
+      }
+
+      nav > ul > li {
+        margin: 0px 80px;
+        display: inline-block;
+      }
+
+      #logo {
+        display: inline-block;
+        font-size: 28px;
       }
 
       #page-header {
@@ -20,24 +35,24 @@
       a {
         text-decoration: none;
         color: black;
-        border-left: 4px solid grey;
-        padding-left: 10px;
-      }
-
-      ul {
-        list-style: none;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1 id="page-header">Devdatta Luxury Collection</h1>
+      <nav>
+        <h1 id="logo">DEVDATTA</h1>
+        <ul>
+          <li><a href="./src/sneakers.html  ">Sneakers</a></li>
+          <li><a href="#">Clothing</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <ul>
-        <li><a href="./src/product-card1.html">Sneakers</a></li>
-      </ul>
+      <h1 id="page-header">Devdatta Luxury Collection</h1>
     </main>
   </body>
 </html>
